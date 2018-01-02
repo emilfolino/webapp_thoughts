@@ -25,3 +25,12 @@
 
 
 ## PROJEKT
+
+#### a11y länkar
+
+https://www.w3.org/standards/webdesign/accessibility
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/
+https://www.apple.com/accessibility/
+https://www.google.com/accessibility/
+https://www.microsoft.com/en-us/accessibility/default.aspx
+https://a11yproject.com
