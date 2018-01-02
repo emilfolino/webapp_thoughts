@@ -69,3 +69,32 @@ https://www.google.com/accessibility/
 https://www.microsoft.com/en-us/accessibility/default.aspx
 
 https://a11yproject.com
+
+
+## Fritext kommentarer utvärdering kursen LP4 2017
+
+Kursmomenten varit lite väl repetitiva, jag hade gärna sett att svårighetsgraden hade ökat mer mellan momenten. Androidemuleringen har inte varit helt tillfredsställande.
+
+för mycket upprepning av API-integration och för lite utnyttjande av mobilplattformen som sådan. totalt fel val av ramverk.
+
+den mobila plattformens unika möjligheter har nästan inte utnyttjats (eller berörts) alls och genomgångar av det responsiva tänket har det varit väldigt skralt med. emulatorn har inte fungerat över huvud taget.
+
+Jag är inte så förtjust i upplägget på projektarbetet. Lite otydligt vad som förväntas
+
+igen: fel fokus och en icke-fungerande emulator
+
+Ökad svårighetsgrad mellan kursmomenten och mindre "upprepning" av REST API:er. Använda ett ramverk som används i större utsträckning på arbetsmarknaden.
+
+Kanske använda ett ramverk som eftersöks av arbetsmarknaden så vi som elever får det tillgodo när vi ska ut i arbetslivet.
+
+1) Byt ut Mithril! Det går inte att basera en hel kurs på ett ramverk som knappt används och definitivt inte efterfrågas ute i arbetslivet. Det är dessutom otroligt krångligt att använda för mer komplexa gränssnitt, är fullt av buggar och tveksamma designval samt saknar helt och hållet GUI-komponenter. Allt som allt är det fullständigt olämpligt för mobil apputveckling.
+
+2) Utnyttja mobilplattformens möjligheter! Nu är det mest bara "minska webbläsarfönstret och låtsas som att det är en mobil". Kamera, GPS, QR-skanner, trycksensor... finns hur mycket som helst!
+
+3) Lös problemen med emulatorn, på ett eller annat sätt!
+
+Det hade varit roligare att jobba med ett ramverk som har större användning i arbetsmiljö
+
+Älskade kursmoment 3 när man fick lära sig om flex. Hade gärna sett ett extra kursmoment av det.
+
+Annars riktigt bra kurs. Tycker att jag förstod Mithril rätt så bra i slutändan. Intressant att använda ramverk för Javascript för första gången.
