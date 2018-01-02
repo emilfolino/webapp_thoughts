@@ -15,15 +15,22 @@ GUI/a11y: Navigation och typografi, screenreaders, alt tagg...
 
 Uppgift: Skapa en me-sida
 
+#### Återanvända:
+Läs igenom tipset om “Developer tools i webbläsaren för mobila enheter”.
+
+Om mithril: Det mesta förutom Cordova.
+
 ## KMOM02
 
-GUI/a11y: Knapper
+Börja bygga på den löpande uppgift, introducera testning av frontend kod? jest?
+
+GUI/a11y: Knapper, Begränsningar på mobila enheter svårt att klicka på smått
 
 Uppgift: Starta löpande uppgift för 02-06
 
 ## KMOM03
 
-GUI/a11y: Formulär och inputs
+GUI/a11y: Formulär och inputs avsaknad av kontext och svårt att skriva snabbt, CSS grid?
 
 Uppgift: Löpande uppgift, fokus formulär/skapa data
 
@@ -37,8 +44,14 @@ Uppgift: Löpande uppgift, fokus tabeller både stora och små skärmar
 
 ## KMOM05
 
+Native implementation. Cordova? Android? React Native?
+
+Begränsning av internet hastighet på mobila enheter, throttling i webbläsaren.
+
 
 ## KMOM06
+
+Bygga och kommersialisera?
 
 
 ## PROJEKT
