@@ -51,6 +51,10 @@ GUI/a11y: Formulär och inputs avsaknad av kontext och svårt att skriva snabbt,
 
 Uppgift: Löpande uppgift, fokus formulär/skapa och ta bort data. Använda `POST` och `DELETE` för att hantera ordrar och produkter. Bygga en klient för orderstatus för beställaren.
 
+#### Återanvända:
+
+Inte mycket om vi ska använda CSS grid och nytt ramverk.
+
 ## KMOM04 - Autentisering med JWT
 
 Auth / JWT
@@ -58,6 +62,10 @@ Auth / JWT
 GUI/a11y: Tabeller - scrolla i sidled, veckla ut raden
 
 Uppgift: Löpande uppgift, fokus tabeller både stora och små skärmar. Ett lager av autentisering med JWT för att kunna packa ordrar och se egna beställningar.
+
+#### Återanvända:
+
+Läs igenom artikeln och gör övningarna i “Ett mobilanpassad formulär”.
 
 ## KMOM05 - Native
 
@@ -67,6 +75,10 @@ GUI/a11y: Designa så det ser ut som native appar och använda de inbyggda a11y 
 
 Uppgift: Portera och bygga klienterna i android/iOS.
 
+#### Återanvända:
+
+Inget.
+
 ## KMOM06 - Mobila enheters styrkor
 
 Använda mobila enheternas styrkor, kamera, GPS och positionering, online/offline, splashscreens, ikoner.
@@ -75,11 +87,20 @@ GUI/a11y: Tydliga ikoner, tydlig visning av online/offline, bygga vidare på int
 
 Uppgift: Använda kamera för att visa packningen i kundens klient. GPS och karta för position av paketet.
 
+#### Återanvända:
+
+Inget.
+
+
 ## PROJEKT - Projekt och examination
 
 Från github issues: Order/affärssystem med olika klienter beroende på vem som är slutanvändare. Lagerarbetaren får upp packlistor i en app, ekonomiansvarig får upp fakturor att skicka ut (eventuellt i desktop och mobil miljö), beställaren får uppdateringar på status i en annan app och så vidare.
 
 Om studenterna har gjort en eller två av klienterna under kursens gång i de olika kursmomenten bygger vi ihop det hela i projektet. Kan tänka mig att klienten för ekonomiansvarig/admin är det som är bäst lämpat för projektet, där man där kan jobba med både desktop och mobila vyer, samt att det finns oanade möjligheter för extra krav. En bonus är att studenterna redan har mycket test data de kan använda när de har byggt upp databasen under kursens gång.
+
+#### Återanvända:
+
+Inget.
 
 #### a11y länkar
 
