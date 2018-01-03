@@ -11,9 +11,12 @@
 Intro till JavaScript ramverk och SPA applikationer
 Utgå från den typ av kod vi skrev i js1
 
-GUI/a11y: Navigation och typografi, screenreaders, alt tagg...
+GUI/a11y: Navigation och typografi, screenreaders, alt tagg.
 
-Uppgift: Skapa en me-sida
+Uppgift:
+Skapa en me-sida, övningen ger det mesta, där vi börjar med `element.innerHTML = ''` och slutar i ett ramverk.
+
+Löpande uppgift i ramverket: Ett ordersystem, kmom01 startar lugnt med grunderna till en packlista app, använda `GET` för att hämta order . Fokus på nav och storlek på typsnitt för desktop och mobil.
 
 #### Återanvända:
 Läs igenom tipset om “Developer tools i webbläsaren för mobila enheter”.
@@ -24,10 +27,11 @@ Om mithril: Det mesta förutom Cordova.
 
 Börja bygga på den löpande uppgift, introducera testning av frontend kod? jest?
 
-GUI/a11y: Knapper, Begränsningar på mobila enheter svårt att klicka på smått
+GUI/a11y: Knapper, Begränsningar på mobila enheter svårt att klicka på små länkar.
+
 Begränsning av internet hastighet på mobila enheter, throttling i webbläsaren.
 
-Uppgift: Starta löpande uppgift för 02-06
+Uppgift: Fortsätta med packlistan, skapa knappar för att ta på sig packlista och ändra status när ordern är packad. Fokus på att använda `PUT` via `fetch`.
 
 #### Återanvända:
 
@@ -45,7 +49,7 @@ Gör uppgiften “Sökverktyg för JSON filer”.
 
 GUI/a11y: Formulär och inputs avsaknad av kontext och svårt att skriva snabbt, CSS grid?
 
-Uppgift: Löpande uppgift, fokus formulär/skapa data
+Uppgift: Löpande uppgift, fokus formulär/skapa och ta bort data. Använda `POST` och `DELETE` för att hantera ordrar och produkter. Bygga en klient för orderstatus för beställaren.
 
 ## KMOM04 - Autentisering med JWT
 
@@ -53,19 +57,28 @@ Auth / JWT
 
 GUI/a11y: Tabeller - scrolla i sidled, veckla ut raden
 
-Uppgift: Löpande uppgift, fokus tabeller både stora och små skärmar
+Uppgift: Löpande uppgift, fokus tabeller både stora och små skärmar. Ett lager av autentisering med JWT för att kunna packa ordrar och se egna beställningar.
 
 ## KMOM05 - Native
 
 Native implementation. Cordova? Android? React Native?
 
+GUI/a11y: Designa så det ser ut som native appar och använda de inbyggda a11y funktioner i mobila enheter.
+
+Uppgift: Portera och bygga klienterna i android/iOS.
+
 ## KMOM06 - Mobila enheters styrkor
 
-Använda mobila enheternas styrkor, kamera, GPS och positionering, online/offline, splashscreens, ikoner...
+Använda mobila enheternas styrkor, kamera, GPS och positionering, online/offline, splashscreens, ikoner.
+
+GUI/a11y: Tydliga ikoner, tydlig visning av online/offline, bygga vidare på integration mot de mobila plattformerna. Släppa på app store/google play?
+
+Uppgift: Använda kamera för att visa packningen i kundens klient. GPS och karta för position av paketet.
 
 ## PROJEKT - Projekt och examination
 
 Från github issues: Order/affärssystem med olika klienter beroende på vem som är slutanvändare. Lagerarbetaren får upp packlistor i en app, ekonomiansvarig får upp fakturor att skicka ut (eventuellt i desktop och mobil miljö), beställaren får uppdateringar på status i en annan app och så vidare.
+
 Om studenterna har gjort en eller två av klienterna under kursens gång i de olika kursmomenten bygger vi ihop det hela i projektet. Kan tänka mig att klienten för ekonomiansvarig/admin är det som är bäst lämpat för projektet, där man där kan jobba med både desktop och mobila vyer, samt att det finns oanade möjligheter för extra krav. En bonus är att studenterna redan har mycket test data de kan använda när de har byggt upp databasen under kursens gång.
 
 #### a11y länkar
