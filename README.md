@@ -6,7 +6,7 @@
 * GUI och enbart frontend
 * Accessibility (a11y)
 
-## KMOM01
+## KMOM01 - JavaScript ramverk
 
 Intro till JavaScript ramverk och SPA applikationer
 Utgå från den typ av kod vi skrev i js1
@@ -20,41 +20,53 @@ Läs igenom tipset om “Developer tools i webbläsaren för mobila enheter”.
 
 Om mithril: Det mesta förutom Cordova.
 
-## KMOM02
+## KMOM02 - Mobila enheters begränsningar
 
 Börja bygga på den löpande uppgift, introducera testning av frontend kod? jest?
 
 GUI/a11y: Knapper, Begränsningar på mobila enheter svårt att klicka på smått
+Begränsning av internet hastighet på mobila enheter, throttling i webbläsaren.
 
 Uppgift: Starta löpande uppgift för 02-06
 
-## KMOM03
+#### Återanvända:
+
+Övningar:
+Läs igenom artikeln och installera “Utvecklingsverktyg för REST tjänster”.
+
+Installera och testa verktyget jq via artikeln “Installera verktyget jq för att söka i JSON-filer”.
+
+Läs igenom artikeln “Enhetens storlek och orientering”.
+
+Uppgifter:
+Gör uppgiften “Sökverktyg för JSON filer”.
+
+## KMOM03 - Formulär och CRUD
 
 GUI/a11y: Formulär och inputs avsaknad av kontext och svårt att skriva snabbt, CSS grid?
 
 Uppgift: Löpande uppgift, fokus formulär/skapa data
 
-## KMOM04
+## KMOM04 - Autentisering med JWT
 
 Auth / JWT
 
-GUI/a11y: Tabeller
+GUI/a11y: Tabeller - scrolla i sidled, veckla ut raden
 
 Uppgift: Löpande uppgift, fokus tabeller både stora och små skärmar
 
-## KMOM05
+## KMOM05 - Native
 
 Native implementation. Cordova? Android? React Native?
 
-Begränsning av internet hastighet på mobila enheter, throttling i webbläsaren.
+## KMOM06 - Mobila enheters styrkor
 
+Använda mobila enheternas styrkor, kamera, GPS och positionering, online/offline, splashscreens, ikoner...
 
-## KMOM06
+## PROJEKT - Projekt och examination
 
-Bygga och kommersialisera?
-
-
-## PROJEKT
+Från github issues: Order/affärssystem med olika klienter beroende på vem som är slutanvändare. Lagerarbetaren får upp packlistor i en app, ekonomiansvarig får upp fakturor att skicka ut (eventuellt i desktop och mobil miljö), beställaren får uppdateringar på status i en annan app och så vidare.
+Om studenterna har gjort en eller två av klienterna under kursens gång i de olika kursmomenten bygger vi ihop det hela i projektet. Kan tänka mig att klienten för ekonomiansvarig/admin är det som är bäst lämpat för projektet, där man där kan jobba med både desktop och mobila vyer, samt att det finns oanade möjligheter för extra krav. En bonus är att studenterna redan har mycket test data de kan använda när de har byggt upp databasen under kursens gång.
 
 #### a11y länkar
 
