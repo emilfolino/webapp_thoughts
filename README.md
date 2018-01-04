@@ -7,7 +7,7 @@
 * GUI och enbart frontend
 * Accessibility (a11y)
 
-## KMOM01 - JavaScript ramverk
+## KMOM01 - Single Page Application
 
 Intro till JavaScript ramverk och SPA applikationer
 Utgå från den typ av kod vi skrev i js1
@@ -26,7 +26,7 @@ Om mithril: Det mesta förutom Cordova.
 
 ## KMOM02 - Mobila enheters begränsningar
 
-Introducera `npm init`, `packade.json` och webpack för bättre kodstruktur. Bygga vidare på appen och förhoppningsvis stöta på problem då det inte finns en router för hantering av funktionalitet.
+Introducera `npm init`, `package.json` och webpack för bättre kodstruktur. Bygga vidare på appen och förhoppningsvis stöta på problem då det inte finns en router för hantering av funktionalitet.
 
 GUI/a11y: Knapper, Begränsningar på mobila enheter svårt att klicka på små länkar.
 
