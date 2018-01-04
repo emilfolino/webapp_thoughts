@@ -2,6 +2,7 @@
 
 ### Generellt
 
+* Börja från vanilla jobba mot ramverk
 * Tydligare spår och fokus
 * GUI och enbart frontend
 * Accessibility (a11y)
@@ -14,9 +15,9 @@ Utgå från den typ av kod vi skrev i js1
 GUI/a11y: Navigation och typografi, screenreaders, alt tagg.
 
 Uppgift:
-Skapa en me-sida, övningen ger det mesta, där vi börjar med `element.innerHTML = ''` och slutar i ett ramverk.
+Skapa en me-sida, övningen ger det mesta, där vi börjar med `element.innerHTML = ''`. Använda module pattern för att dela upp i olika js filer. Använda `xml httpRequest` och `fetch` för att hämta data.
 
-Löpande uppgift i ramverket: Ett ordersystem, kmom01 startar lugnt med grunderna till en packlista app, använda `GET` för att hämta order . Fokus på nav och storlek på typsnitt för desktop och mobil.
+Löpande uppgift i ramverket: Ett ordersystem, kmom01 startar lugnt med grunderna till en packlista app, använda `GET` för att hämta order. Fokus på nav och storlek på typsnitt för desktop och mobil.
 
 #### Återanvända:
 Läs igenom tipset om “Developer tools i webbläsaren för mobila enheter”.
@@ -25,13 +26,13 @@ Om mithril: Det mesta förutom Cordova.
 
 ## KMOM02 - Mobila enheters begränsningar
 
-Börja bygga på den löpande uppgift, introducera testning av frontend kod? jest?
+Introducera `npm init`, `packade.json` och webpack för bättre kodstruktur. Bygga vidare på appen och förhoppningsvis stöta på problem då det inte finns en router för hantering av funktionalitet.
 
 GUI/a11y: Knapper, Begränsningar på mobila enheter svårt att klicka på små länkar.
 
 Begränsning av internet hastighet på mobila enheter, throttling i webbläsaren.
 
-Uppgift: Fortsätta med packlistan, skapa knappar för att ta på sig packlista och ändra status när ordern är packad. Fokus på att använda `PUT` via `fetch`.
+Uppgift: Fortsätta med packlistan, skapa knappar för att ta på sig packlista och ändra status när ordern är packad. Fokus på att använda `GET` och `PUT` via `fetch`.
 
 #### Återanvända:
 
@@ -47,6 +48,10 @@ Gör uppgiften “Sökverktyg för JSON filer”.
 
 ## KMOM03 - Formulär och CRUD
 
+Introducera mithril som ett mini ramverk, som vi använder för att visa på konceptet med JavaScript ramverk. Informera om varför vi just vald mithril och vilka andra ramverk som finns. I ramverk2 kursen finns det möjlighet att fördjupa sig i det senaste nya ramverket.
+
+Studenten skriver löpande om befintlig js kod till mithril samtidigt som mer funktionalitet läggs till.
+
 GUI/a11y: Formulär och inputs avsaknad av kontext och svårt att skriva snabbt, CSS grid?
 
 Uppgift: Löpande uppgift, fokus formulär/skapa och ta bort data. Använda `POST` och `DELETE` för att hantera ordrar och produkter. Bygga en klient för orderstatus för beställaren.
@@ -57,7 +62,9 @@ Inte mycket om vi ska använda CSS grid och nytt ramverk.
 
 ## KMOM04 - Autentisering med JWT
 
-Auth / JWT
+Fortsätta med mithril och JSX
+
+Auth / JWT ?
 
 GUI/a11y: Tabeller - scrolla i sidled, veckla ut raden
 
@@ -65,11 +72,11 @@ Uppgift: Löpande uppgift, fokus tabeller både stora och små skärmar. Ett lag
 
 #### Återanvända:
 
-Läs igenom artikeln och gör övningarna i “Ett mobilanpassad formulär”.
+Läs igenom artikeln och gör övningarna i “Ett mobilanpassad formulär”. - Bygga på denna artikel ytterligare med datum väljare etc anpassade för mobilen.
 
 ## KMOM05 - Native
 
-Native implementation. Cordova? Android? React Native?
+Native implementation. Cordova?
 
 GUI/a11y: Designa så det ser ut som native appar och använda de inbyggda a11y funktioner i mobila enheter.
 
@@ -77,7 +84,7 @@ Uppgift: Portera och bygga klienterna i android/iOS.
 
 #### Återanvända:
 
-Inget.
+Från KMOM01 från förra året.
 
 ## KMOM06 - Mobila enheters styrkor
 
@@ -89,8 +96,7 @@ Uppgift: Använda kamera för att visa packningen i kundens klient. GPS och kart
 
 #### Återanvända:
 
-Inget.
-
+Från KMOM03 från förra året med cordova plugins. - Bygga ut artikel.
 
 ## PROJEKT - Projekt och examination
 
